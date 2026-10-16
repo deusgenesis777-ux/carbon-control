@@ -1,0 +1,22 @@
+/* Carbon Control — Tech Dashboard / LIGHT theme */
+QWidget { color: #1D2735; font-family: "Segoe UI"; font-size: 10pt; }
+QMainWindow, QDialog { background: #F3F6FA; }
+QFrame#Panel, QGroupBox { background: #FFFFFF; border: 1px solid #DCE3EC; border-radius: 10px; }
+QLabel#PageTitle { font-size: 18pt; font-weight: 650; color: #162333; background: transparent; }
+QLabel#SectionTitle { font-size: 11pt; font-weight: 600; background: transparent; }
+QLabel#MetricValue { font-size: 20pt; font-weight: 650; color: #1677B8; background: transparent; }
+QLabel#Muted { color: #66758A; background: transparent; }
+QPushButton { background: #E8EEF5; color: #1D2735; border: 1px solid #D4DEE9; border-radius: 7px; padding: 8px 13px; }
+QPushButton:hover { background: #DDEAF7; border-color: #8ABFE8; }
+QPushButton:pressed { background: #C9DFF2; }
+QPushButton#PrimaryButton { background: #176FA8; color: #FFFFFF; border: 1px solid #176FA8; font-weight: 600; }
+QPushButton#PrimaryButton:hover { background: #125D8F; }
+QPushButton#DangerButton { background: #FFF0F0; color: #B4232C; border: 1px solid #F0C7CA; }
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox { background: #FFFFFF; border: 1px solid #D4DEE9; border-radius: 7px; padding: 7px 9px; selection-background-color: #B7DFFF; }
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus { border: 1px solid #268CCB; }
+QProgressBar { background: #E5EBF2; border: none; border-radius: 4px; text-align: center; min-height: 8px; }
+QProgressBar::chunk { background: #1B91C7; border-radius: 4px; }
+QTabWidget::pane { border: 1px solid #DCE3EC; border-radius: 8px; background: #FFFFFF; }
+QTabBar::tab { background: #E8EEF5; padding: 8px 13px; margin-right: 3px; border-radius: 6px; }
+QTabBar::tab:selected { background: #D8EAF8; color: #155E91; }
+QToolTip { background: #162333; color: #FFFFFF; border: 1px solid #35465A; padding: 5px; }

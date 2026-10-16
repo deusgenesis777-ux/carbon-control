@@ -1,0 +1,56 @@
+{
+  "name": "Carbon Control — Tech Dashboard",
+  "framework": "PySide6 / Qt Style Sheets",
+  "theme_mode": "follow_windows",
+  "density": "balanced",
+  "palette": {
+    "light": {
+      "window": "#F3F6FA",
+      "panel": "#FFFFFF",
+      "border": "#DCE3EC",
+      "text": "#1D2735",
+      "muted": "#66758A",
+      "accent": "#176FA8",
+      "accent_cyan": "#1B91C7",
+      "success": "#19865B",
+      "warning": "#CA8412",
+      "error": "#D2424A"
+    },
+    "dark": {
+      "window": "#171C23",
+      "panel": "#202731",
+      "border": "#303B49",
+      "text": "#E4EAF2",
+      "muted": "#9BAABC",
+      "accent": "#14799A",
+      "accent_cyan": "#38B8D7",
+      "success": "#4AD397",
+      "warning": "#FFC253",
+      "error": "#FF7078"
+    }
+  },
+  "spacing_px": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24
+  },
+  "radius_px": {
+    "small": 6,
+    "medium": 8,
+    "panel": 10
+  },
+  "icon_sizes_px": {
+    "navigation": 16,
+    "button": 16,
+    "card": 20,
+    "empty_state": 32
+  },
+  "status_rules": {
+    "success": "Use only after a test actually passes.",
+    "warning": "Use when a result is incomplete, limited, or needs attention.",
+    "error": "Use only when a test fails or an operation errors.",
+    "unknown": "Default state before a test has run."
+  }
+}
